@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Deployment steps go here (if any)
-                    echo 'Deployment completed successfully'
+                    echo 'Deployment completed successfully' k
                 }
             }
         }
