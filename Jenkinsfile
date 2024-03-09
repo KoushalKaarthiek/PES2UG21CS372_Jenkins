@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building'
                 build 'PES2UG21CS372-1'
-                sh 'g++ main2.cpp -o output'
+                sh 'g++ New.cpp -o output'
             }
         }
         stage('Test') {
