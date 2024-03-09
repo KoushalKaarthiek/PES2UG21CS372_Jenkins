@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile .cpp file using a shell script
-                    sh 'g++ -o New.cpp'
+                    sh 'g++ -o myExecutable main/New.cpp'
                 }
             }
         }
@@ -39,6 +39,6 @@ pipeline {
         failure {
             echo 'Pipeline failed'
             // Additional actions or notifications can be added here
-        }
-    }
+        }
+    }
 }
