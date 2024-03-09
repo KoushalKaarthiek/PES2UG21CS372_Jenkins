@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile .cpp file using a shell script
-                    sh 'g++ -o myExecutable main/New.cpp'
+                    sh 'g++ -o myExecutable New.cpp'
                 }
             }
         }
